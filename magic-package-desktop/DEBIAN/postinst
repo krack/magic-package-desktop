@@ -25,6 +25,8 @@ EOF
 
 #add skype at startup
 run_at_computer_start skype
+#add thunderbird at startup
+run_at_computer_start thunderbird
 echo "install done"
 
 
