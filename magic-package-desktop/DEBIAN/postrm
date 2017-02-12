@@ -15,5 +15,6 @@ function clean_run_at_computer_start(){
 #add skype at startup
 clean_run_at_computer_start skype
 
+apt-get remove skype
 
 echo "remove done"

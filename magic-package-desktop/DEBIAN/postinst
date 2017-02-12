@@ -1,4 +1,7 @@
 #!/bin/bash
+#install skype manualy for bypass repository dependency
+apt-get install skype
+
 #configure programm for star with session
 function run_at_computer_start(){
 	local program_name=$1
