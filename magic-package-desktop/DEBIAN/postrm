@@ -1,3 +1,19 @@
 #!/bin/bash
+#remove configuration programm for star with session
+function clean_run_at_computer_start(){
+	local program_name=$1
+	
+	#for each user
+	for d in $( ls /home/); do
+		rm /home/$d/.config/autostart/$program_name.desktop
+	done
+
+	echo "Configuration for $program_name start at session start clean"
+	
+}
+
+#add skype at startup
+clean_run_at_computer_start skype
+
 
 echo "remove done"

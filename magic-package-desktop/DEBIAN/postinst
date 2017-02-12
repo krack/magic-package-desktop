@@ -1,5 +1,27 @@
 #!/bin/bash
+#configure programm for star with session
+function run_at_computer_start(){
+	local program_name=$1
+	
+	#for each user
+	for d in $( ls /home/); do
+		mkdir -p /home/$d/.config/autostart/
+		cat <<EOF > /home/$d/.config/autostart/$program_name.desktop
+[Desktop Entry]
+Type=Application
+Exec=$program_name
+Name=$program_name
+Icon=$program_name
+Comment=$program_name run at start
+EOF
+	done
 
+	echo "Configuration for $program_name start at session start"
+	
+}
+
+#add skype at startup
+run_at_computer_start skype
 echo "install done"
 
 
