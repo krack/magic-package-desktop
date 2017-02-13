@@ -2,4 +2,12 @@
  Package ubunutu for automatically manage upgrade software
 
 softwares :
-*skype
+*Skype
+*Firefox
+* Firefox addons
+**adblocs
+*Thunderbird
+*Thunderbird addons
+**Fire Tray
+*Libre Office
+*Vlc
