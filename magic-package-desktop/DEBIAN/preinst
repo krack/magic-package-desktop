@@ -1,3 +1,9 @@
 #!/bin/bash
 
+if [ ! -f /usr/local/sbin/mozilla-extension-manager ]; then
+	wget -O /usr/local/sbin/mozilla-extension-manager https://raw.githubusercontent.com/NicolasBernaerts/ubuntu-scripts/master/mozilla/mozilla-extension-manager
+	chmod +x /usr/local/sbin/mozilla-extension-manager
+    echo "Tool mozilla-extension-manager installed."
+fi
+
 echo "install preparation"
