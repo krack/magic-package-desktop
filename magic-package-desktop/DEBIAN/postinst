@@ -9,14 +9,7 @@ function run_at_computer_start(){
 	#for each user
 	for d in $( ls /home/); do
 		mkdir -p /home/$d/.config/autostart/
-		cat <<EOF > /home/$d/.config/autostart/$program_name.desktop
-[Desktop Entry]
-Type=Application
-Exec=$program_name
-Name=$program_name
-Icon=$program_name
-Comment=$program_name run at start
-EOF
+		cp /usr/share/applications/$program_name.desktop /home/$d/.config/autostart/
 	done
 
 	echo "Configuration for $program_name start at session start"
