@@ -1,0 +1,16 @@
+#!/bin/bash
+
+function configure_preference_thunderbird(){
+	local preference_name=$1
+	local preference_value=$2
+	local preference_file=~/.thunderbird/*.default/prefs.js
+
+	if ! grep -q "\"$preference_name\"" $preference_file ; then
+		echo "user_pref(\"$preference_name\", $preference_value);" >> $preference_file
+		echo "add thunderbird preference : $preference_name - $preference_value"
+	fi
+
+}
+
+
+configure_preference_thunderbird "extensions.firetray.start_hidden" true
