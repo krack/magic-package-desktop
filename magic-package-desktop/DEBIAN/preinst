@@ -9,7 +9,7 @@ fi
 #install partner repository
 if ! grep -q "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner" /etc/apt/sources.list; then
 	add-apt-repository -y -u "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner" 
-elif grep -q "#deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner" /etc/apt/sources.list; then
+elif grep -q "# deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner" /etc/apt/sources.list; then
 	add-apt-repository -y -u "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner" 
 
 fi
