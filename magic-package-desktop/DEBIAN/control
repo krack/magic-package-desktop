@@ -3,7 +3,7 @@ Version: $TRAVIS_TAG
 Section: stable
 Priority: optional
 Architecture: all
-Depends: bash,skype,firefox,firefox-locale-fr,thunderbird,thunderbird-locale-fr,libreoffice,vlc
+Depends: bash,firefox,firefox-locale-fr,thunderbird,thunderbird-locale-fr,libreoffice,vlc
 Maintainer: Sylvain Gandon <krack_6@hotmail.com>
 Description: Tools and configuration for classical usage.
 Homepage: https://github.com/krack/magic-package-desktop
