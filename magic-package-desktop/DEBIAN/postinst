@@ -6,6 +6,11 @@ function run_at_computer_start(){
 	
 	#for each user
 	for d in $( ls /home/); do
+		#if .config not exist, create for user
+		if [ ! -d "$d/.config" ]; then
+			mkdir -p /home/$d/.config/
+			chown -R $d:$d /home/$d/.config/
+		fi
 		mkdir -p /home/$d/.config/autostart/
 		cp /usr/share/applications/$program_name.desktop /home/$d/.config/autostart/
 	done
@@ -22,6 +27,7 @@ run_at_computer_start thunderbird
 #install firefox extention
 #ad block plus
 mozilla-extension-manager --install --global https://addons.mozilla.org/firefox/downloads/latest/adblock-plus/addon-1865-latest.xpi
+rm -r /usr/lib/firefox-addons/extensions/\{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d\}
 
 #install firefox extention
 #Fire tray
