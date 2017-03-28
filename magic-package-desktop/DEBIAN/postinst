@@ -18,6 +18,8 @@ function run_at_computer_start(){
 	echo "Configuration for $program_name start at session start"
 	
 }
+#install dvd
+dpkg-reconfigure --frontend=noninteractive libdvd-pkg
 
 #add skype at startup
 run_at_computer_start skype
