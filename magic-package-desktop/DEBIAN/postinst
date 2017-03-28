@@ -19,7 +19,7 @@ function run_at_computer_start(){
 	
 }
 #install dvd
-dpkg-reconfigure --frontend=noninteractive libdvd-pkg
+dpkg-reconfigure libdvd-pkg
 
 #add skype at startup
 run_at_computer_start skype
