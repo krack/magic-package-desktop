@@ -13,8 +13,6 @@ function clean_run_at_computer_start(){
 }
 
 #add skype at startup
-clean_run_at_computer_start skype
-#add skype at startup
 clean_run_at_computer_start thunderbird
 
 echo "remove done"
