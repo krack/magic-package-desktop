@@ -11,7 +11,7 @@ deploy:
   username: krack
   token:
     secure: Mt55np/a7dvtp4BVuwoHybM8yIQVio+VxRVz5UZeO7DPpdNXgtxOTo5haWkCc25XLGwc/qmO2YThKq7vuyB2w868ubk9LeMhlnbQ2r0H6ym5fwaT186bEMQI0q9vopknJHT+wE0eiBXQumuTgc38zuaCJm+79EY9FlmflWNpO8icW/o1Kf5R3VmZaL0wUcPHnoNqqq0ekyk5VLYDWiqSrcQAzgUz6ieDTGIdc39LWt83G5yU8hRaR20N6/SmqKPE+3K+oL3w7tZUWAZBEE/Oc+XVOJt9hojR5AE69W2FaixWPcIr9ZCcljbRKGpOI7M1Q2kc6CKOjSbs++Z1VuwZ+fIbsVrcHgrprTWoXTSC1C3OEexvluAJDf4sHxmw62gH4Czq/xN7kHxqmKCtw4zqwE3AW/CUWFO8VLYuWutSSDknCc3Dh3givinNfKjXews4NT2CFZLT43mdtCMzaggnQ/bBSCoJqC9VitebS3pCc4y3cwBiVTMz+PSfG9EbS6NFEbCpCGvMA6u9C2sXHq5m8xU5UU8SIpjU1yoZprnFyCPbzGY8L18F5zLUZqqKBxALZEvThXXg2z8XcJrOj2HYiuLxvIEkgwi0KNs/5Da0GaxgChKNDLsq4Q/9Cq0PqKOOldBwtVHqcHLiGt126qdbX9OXTCoYfgfb3M4T5u05Hr0=
-  dist: ubuntu/xenial
+  dist: ubuntu/disco
   skip_cleanup: true
   on:
     tags: false
@@ -20,7 +20,7 @@ deploy:
   username: krack
   token:
     secure: Mt55np/a7dvtp4BVuwoHybM8yIQVio+VxRVz5UZeO7DPpdNXgtxOTo5haWkCc25XLGwc/qmO2YThKq7vuyB2w868ubk9LeMhlnbQ2r0H6ym5fwaT186bEMQI0q9vopknJHT+wE0eiBXQumuTgc38zuaCJm+79EY9FlmflWNpO8icW/o1Kf5R3VmZaL0wUcPHnoNqqq0ekyk5VLYDWiqSrcQAzgUz6ieDTGIdc39LWt83G5yU8hRaR20N6/SmqKPE+3K+oL3w7tZUWAZBEE/Oc+XVOJt9hojR5AE69W2FaixWPcIr9ZCcljbRKGpOI7M1Q2kc6CKOjSbs++Z1VuwZ+fIbsVrcHgrprTWoXTSC1C3OEexvluAJDf4sHxmw62gH4Czq/xN7kHxqmKCtw4zqwE3AW/CUWFO8VLYuWutSSDknCc3Dh3givinNfKjXews4NT2CFZLT43mdtCMzaggnQ/bBSCoJqC9VitebS3pCc4y3cwBiVTMz+PSfG9EbS6NFEbCpCGvMA6u9C2sXHq5m8xU5UU8SIpjU1yoZprnFyCPbzGY8L18F5zLUZqqKBxALZEvThXXg2z8XcJrOj2HYiuLxvIEkgwi0KNs/5Da0GaxgChKNDLsq4Q/9Cq0PqKOOldBwtVHqcHLiGt126qdbX9OXTCoYfgfb3M4T5u05Hr0=
-  dist: ubuntu/yakkety
+  dist: ubuntu/bionic
   skip_cleanup: true
   on:
     tags: false
@@ -29,7 +29,7 @@ deploy:
   username: krack
   token:
     secure: Mt55np/a7dvtp4BVuwoHybM8yIQVio+VxRVz5UZeO7DPpdNXgtxOTo5haWkCc25XLGwc/qmO2YThKq7vuyB2w868ubk9LeMhlnbQ2r0H6ym5fwaT186bEMQI0q9vopknJHT+wE0eiBXQumuTgc38zuaCJm+79EY9FlmflWNpO8icW/o1Kf5R3VmZaL0wUcPHnoNqqq0ekyk5VLYDWiqSrcQAzgUz6ieDTGIdc39LWt83G5yU8hRaR20N6/SmqKPE+3K+oL3w7tZUWAZBEE/Oc+XVOJt9hojR5AE69W2FaixWPcIr9ZCcljbRKGpOI7M1Q2kc6CKOjSbs++Z1VuwZ+fIbsVrcHgrprTWoXTSC1C3OEexvluAJDf4sHxmw62gH4Czq/xN7kHxqmKCtw4zqwE3AW/CUWFO8VLYuWutSSDknCc3Dh3givinNfKjXews4NT2CFZLT43mdtCMzaggnQ/bBSCoJqC9VitebS3pCc4y3cwBiVTMz+PSfG9EbS6NFEbCpCGvMA6u9C2sXHq5m8xU5UU8SIpjU1yoZprnFyCPbzGY8L18F5zLUZqqKBxALZEvThXXg2z8XcJrOj2HYiuLxvIEkgwi0KNs/5Da0GaxgChKNDLsq4Q/9Cq0PqKOOldBwtVHqcHLiGt126qdbX9OXTCoYfgfb3M4T5u05Hr0=
-  dist: ubuntu/zesty
+  dist: ubuntu/cosmic
   skip_cleanup: true
   on:
     tags: false
@@ -38,7 +38,7 @@ deploy:
   username: krack
   token:
     secure: Mt55np/a7dvtp4BVuwoHybM8yIQVio+VxRVz5UZeO7DPpdNXgtxOTo5haWkCc25XLGwc/qmO2YThKq7vuyB2w868ubk9LeMhlnbQ2r0H6ym5fwaT186bEMQI0q9vopknJHT+wE0eiBXQumuTgc38zuaCJm+79EY9FlmflWNpO8icW/o1Kf5R3VmZaL0wUcPHnoNqqq0ekyk5VLYDWiqSrcQAzgUz6ieDTGIdc39LWt83G5yU8hRaR20N6/SmqKPE+3K+oL3w7tZUWAZBEE/Oc+XVOJt9hojR5AE69W2FaixWPcIr9ZCcljbRKGpOI7M1Q2kc6CKOjSbs++Z1VuwZ+fIbsVrcHgrprTWoXTSC1C3OEexvluAJDf4sHxmw62gH4Czq/xN7kHxqmKCtw4zqwE3AW/CUWFO8VLYuWutSSDknCc3Dh3givinNfKjXews4NT2CFZLT43mdtCMzaggnQ/bBSCoJqC9VitebS3pCc4y3cwBiVTMz+PSfG9EbS6NFEbCpCGvMA6u9C2sXHq5m8xU5UU8SIpjU1yoZprnFyCPbzGY8L18F5zLUZqqKBxALZEvThXXg2z8XcJrOj2HYiuLxvIEkgwi0KNs/5Da0GaxgChKNDLsq4Q/9Cq0PqKOOldBwtVHqcHLiGt126qdbX9OXTCoYfgfb3M4T5u05Hr0=
-  dist: ubuntu/xenial
+  dist: ubuntu/disco
   skip_cleanup: true
   on:
     tags: true
@@ -47,7 +47,7 @@ deploy:
   username: krack
   token:
     secure: Mt55np/a7dvtp4BVuwoHybM8yIQVio+VxRVz5UZeO7DPpdNXgtxOTo5haWkCc25XLGwc/qmO2YThKq7vuyB2w868ubk9LeMhlnbQ2r0H6ym5fwaT186bEMQI0q9vopknJHT+wE0eiBXQumuTgc38zuaCJm+79EY9FlmflWNpO8icW/o1Kf5R3VmZaL0wUcPHnoNqqq0ekyk5VLYDWiqSrcQAzgUz6ieDTGIdc39LWt83G5yU8hRaR20N6/SmqKPE+3K+oL3w7tZUWAZBEE/Oc+XVOJt9hojR5AE69W2FaixWPcIr9ZCcljbRKGpOI7M1Q2kc6CKOjSbs++Z1VuwZ+fIbsVrcHgrprTWoXTSC1C3OEexvluAJDf4sHxmw62gH4Czq/xN7kHxqmKCtw4zqwE3AW/CUWFO8VLYuWutSSDknCc3Dh3givinNfKjXews4NT2CFZLT43mdtCMzaggnQ/bBSCoJqC9VitebS3pCc4y3cwBiVTMz+PSfG9EbS6NFEbCpCGvMA6u9C2sXHq5m8xU5UU8SIpjU1yoZprnFyCPbzGY8L18F5zLUZqqKBxALZEvThXXg2z8XcJrOj2HYiuLxvIEkgwi0KNs/5Da0GaxgChKNDLsq4Q/9Cq0PqKOOldBwtVHqcHLiGt126qdbX9OXTCoYfgfb3M4T5u05Hr0=
-  dist: ubuntu/yakkety
+  dist: ubuntu/bionic
   skip_cleanup: true
   on:
     tags: true
@@ -56,7 +56,7 @@ deploy:
   username: krack
   token:
     secure: Mt55np/a7dvtp4BVuwoHybM8yIQVio+VxRVz5UZeO7DPpdNXgtxOTo5haWkCc25XLGwc/qmO2YThKq7vuyB2w868ubk9LeMhlnbQ2r0H6ym5fwaT186bEMQI0q9vopknJHT+wE0eiBXQumuTgc38zuaCJm+79EY9FlmflWNpO8icW/o1Kf5R3VmZaL0wUcPHnoNqqq0ekyk5VLYDWiqSrcQAzgUz6ieDTGIdc39LWt83G5yU8hRaR20N6/SmqKPE+3K+oL3w7tZUWAZBEE/Oc+XVOJt9hojR5AE69W2FaixWPcIr9ZCcljbRKGpOI7M1Q2kc6CKOjSbs++Z1VuwZ+fIbsVrcHgrprTWoXTSC1C3OEexvluAJDf4sHxmw62gH4Czq/xN7kHxqmKCtw4zqwE3AW/CUWFO8VLYuWutSSDknCc3Dh3givinNfKjXews4NT2CFZLT43mdtCMzaggnQ/bBSCoJqC9VitebS3pCc4y3cwBiVTMz+PSfG9EbS6NFEbCpCGvMA6u9C2sXHq5m8xU5UU8SIpjU1yoZprnFyCPbzGY8L18F5zLUZqqKBxALZEvThXXg2z8XcJrOj2HYiuLxvIEkgwi0KNs/5Da0GaxgChKNDLsq4Q/9Cq0PqKOOldBwtVHqcHLiGt126qdbX9OXTCoYfgfb3M4T5u05Hr0=
-  dist: ubuntu/zesty
+  dist: ubuntu/cosmic
   skip_cleanup: true
   on:
     tags: true
